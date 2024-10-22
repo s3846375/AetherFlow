@@ -123,7 +123,7 @@ struct FootprintTransactionRowView: View {
     /// A date formatter to format the transaction timestamp.
     static let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
-        formatter.dateFormat = "dd MMMM yyyy"
+        formatter.dateFormat = "dd/MM/yyyy"
         return formatter
     }()
     
@@ -153,7 +153,7 @@ struct FootprintTransactionRowView: View {
                     .font(.headline)
                     .accessibilityLabel("Transaction name: \(transaction.name)")
                 Text(Self.dateFormatter.string(from: transaction.timestamp))
-                    .font(.subheadline)
+                    .font(.footnote)
                     .foregroundColor(.secondary)
                     .accessibilityLabel("Date: \(Self.dateFormatter.string(from: transaction.timestamp))")
             }
@@ -163,7 +163,7 @@ struct FootprintTransactionRowView: View {
             // Display transaction price and calculated carbon emissions.
             VStack(alignment: .trailing) {
                 Text(String(format: "$%.2f", transaction.price))
-                    .font(.headline)
+                    .font(.subheadline)
                     .foregroundColor(.gray)
                     .accessibilityLabel("Price: $\(String(format: "%.2f", transaction.price))")
                 
