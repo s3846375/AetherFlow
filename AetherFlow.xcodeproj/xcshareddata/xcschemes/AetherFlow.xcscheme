@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1540"
+   version = "1.7">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES"
+      buildArchitectures = "Automatic">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4F16AE572C6CA28600005D0E"
+               BuildableName = "AetherFlow.app"
+               BlueprintName = "AetherFlow"
+               ReferencedContainer = "container:AetherFlow.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      shouldAutocreateTestPlan = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3C0965DD2CB2EBE10010610B"
+               BuildableName = "UnitTests.xctest"
+               BlueprintName = "UnitTests"
+               ReferencedContainer = "container:AetherFlow.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "AddFootprintViewTests/testIsFormValid_EmptyName()">
+               </Test>
+               <Test
+                  Identifier = "AddFootprintViewTests/testIsFormValid_EmptyPrice()">
+               </Test>
+               <Test
+                  Identifier = "AddFootprintViewTests/testIsFormValid_InvalidFutureDate()">
+               </Test>
+               <Test
+                  Identifier = "AddFootprintViewTests/testIsFormValid_InvalidInputs()">
+               </Test>
+               <Test
+                  Identifier = "AddFootprintViewTests/testIsFormValid_InvalidPrice()">
+               </Test>
+               <Test
+                  Identifier = "AddFootprintViewTests/testIsFormValid_ValidInputs()">
+               </Test>
+               <Test
+                  Identifier = "AddFootprintViewTests/testIsFormValid_ValidName()">
+               </Test>
+               <Test
+                  Identifier = "AddFootprintViewTests/testIsFormValid_ValidPastDate()">
+               </Test>
+               <Test
+                  Identifier = "AddFootprintViewTests/testIsFormValid_ValidPrice()">
+               </Test>
+               <Test
+                  Identifier = "ChallengeListViewTest/testChallengeIsContain()">
+               </Test>
+               <Test
+                  Identifier = "DietViewTest/testContainsChallenge()">
+               </Test>
+               <Test
+                  Identifier = "FootprintEquivalentsListViewTests/testGetIconForEquivalent_ForDefaultScenarios()">
+               </Test>
+               <Test
+                  Identifier = "FootprintEquivalentsListViewTests/testGetIconForEquivalent_ForRecognizedKeywords()">
+               </Test>
+               <Test
+                  Identifier = "FootprintEquivalentsListViewTests/testTrimEquivalent()">
+               </Test>
+               <Test
+                  Identifier = "ProfileMetricsViewTests/testAggregateEmissions_CorrectlyAggregatesData()">
+               </Test>
+               <Test
+                  Identifier = "ProfileMetricsViewTests/testSaveWidgetData_InvalidProfileMetric_DoesNotSaveToUserDefaults()">
+               </Test>
+               <Test
+                  Identifier = "ProfileMetricsViewTests/testSaveWidgetData_SavesProfileMetricToUserDefaults()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4F16AE572C6CA28600005D0E"
+            BuildableName = "AetherFlow.app"
+            BlueprintName = "AetherFlow"
+            ReferencedContainer = "container:AetherFlow.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "4F16AE572C6CA28600005D0E"
+            BuildableName = "AetherFlow.app"
+            BlueprintName = "AetherFlow"
+            ReferencedContainer = "container:AetherFlow.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

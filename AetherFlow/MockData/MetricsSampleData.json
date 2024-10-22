@@ -1,0 +1,229 @@
+{
+    "emissions_total": 1466.21,
+    "transaction_count": 6,
+    "suggested_actions": {
+        "category": "Transport",
+        "category_total_kg_c02e_emissions": 186.6,
+        "actions": [
+            {
+                "sub_category": "Use car less",
+                "action": "Go car-free",
+                "description": "Typically 25% of a person’s footprint comes from travel...",
+                "reference": "Mike Berners-Lee, Richmond gov, Lund University"
+            },
+            {
+                "sub_category": "Low emissions transport",
+                "action": "Walk more instead of driving short journeys",
+                "description": "Walking has so many benefits compared to driving a car; less air pollution and emissions...",
+                "reference": "Sustrans"
+            },
+            {
+                "sub_category": "Use public transport",
+                "action": "Take the train or bus instead of driving",
+                "description": "Travelling by train can reduce your emissions by 70-80% compared to driving.",
+                "reference": "Energy Saving Trust"
+            }
+        ]
+    },
+    "well_done_comments": [
+        "Well done for using electric vehicle charging!"
+    ],
+    "recommendations": [
+        "Eating less meat can be a quick and easy way to reduce your overall emissions.",
+        "Opt for air drying! It's as vital as choosing the right wash temperature, promoting both clothing longevity and a lower environmental footprint.",
+        "Just reducing your red meat consumption can have a significant impact. The carbon impact of chicken is 8 times lower than the carbon impact of beef, on average, per gram of protein."
+    ],
+    "equivalents": [
+        "This is equivalent to the emissions from flying a light private jet for 0.7 hours. ",
+        "This is equivalent to the emissions from providing 0.6 UK homes with gas for a year.",
+        "This is equivalent to the emissions from flying from London to New York 1 times."
+    ],
+    "groups": [
+        {
+            "group": "Airfare",
+            "result": {
+                "emissions": 900.3,
+                "count": 1,
+                "fraction_of_total": 0.61,
+                "transactions": [
+                    {
+                        "mcc": "3012",
+                        "price": 1234,
+                        "geo": "AU",
+                        "group": "Airfare",
+                        "currencyISO": "AUD",
+                        "emissions_level": "category",
+                        "name": "QANTAS",
+                        "kg_of_CO2e_emissions": 900.3,
+                        "mt_of_CO2e_emissions": 0.9003,
+                        "similar_to": [
+                            "This is equivalent to the emissions from providing 0.4 UK homes with gas for a year.",
+                            "This is equivalent to the emissions from flying an Airbus A380 for 1 minutes.",
+                            "This is equivalent to the emissions from powering 1 UK homes with electricity for a year."
+                        ],
+                        "modifiers": [
+                            
+                        ],
+                        "factor_version": "v1_1"
+                    }
+                ]
+            }
+        },
+        {
+            "group": "Lodging",
+            "result": {
+                "emissions": 313.44,
+                "count": 1,
+                "fraction_of_total": 0.21,
+                "transactions": [
+                    {
+                        "price": 1234,
+                        "group": "Lodging",
+                        "mcc": "3501",
+                        "geo": "AU",
+                        "currencyISO": "AUD",
+                        "emissions_level": "category",
+                        "name": "HOLIDAY INNS",
+                        "kg_of_CO2e_emissions": 313.44,
+                        "mt_of_CO2e_emissions": 0.3134,
+                        "similar_to": [
+                            "This is equivalent to the emissions from powering a library with electricity for 2 days.",
+                            "This is equivalent to the emissions from flying from Paris to Nice 2 times.",
+                            "This is equivalent to the emissions from powering a restaurant with electricity for 2 days."
+                        ],
+                        "modifiers": [
+                            
+                        ],
+                        "factor_version": "v1_1"
+                    }
+                ]
+            }
+        },
+        {
+            "group": "Fuel",
+            "result": {
+                "emissions": 186.6,
+                "count": 1,
+                "fraction_of_total": 0.13,
+                "transactions": [
+                    {
+                        "geo": "AU",
+                        "price": 123.4,
+                        "mcc": "5541",
+                        "currencyISO": "AUD",
+                        "group": "Fuel",
+                        "emissions_level": "category",
+                        "name": "Service Stations ( with or without ancillary services)",
+                        "kg_of_CO2e_emissions": 186.6,
+                        "mt_of_CO2e_emissions": 0.1866,
+                        "similar_to": [
+                            "This is equivalent to the emissions from powering a library with electricity for 0.9 days.",
+                            "This is equivalent to the emissions from flying from Paris to Nice 1 times.",
+                            "This is equivalent to the emissions from powering a restaurant with electricity for 1 days."
+                        ],
+                        "modifiers": [
+                            
+                        ],
+                        "factor_version": "v1_1"
+                    }
+                ]
+            }
+        },
+        {
+            "group": "Cafes and Restaurants",
+            "result": {
+                "emissions": 28.57,
+                "count": 1,
+                "fraction_of_total": 0.02,
+                "transactions": [
+                    {
+                        "geo": "AU",
+                        "currencyISO": "AUD",
+                        "group": "Cafes and Restaurants",
+                        "mcc": "5812",
+                        "price": 123.4,
+                        "emissions_level": "category",
+                        "name": "Eating places and Restaurants",
+                        "kg_of_CO2e_emissions": 28.57,
+                        "mt_of_CO2e_emissions": 0.0286,
+                        "similar_to": [
+                            "This is equivalent to the emissions from flying from Berlin to Munich 0.3 times.",
+                            "This is equivalent to the emissions from flying from London to Paris 0.4 times.",
+                            "This is equivalent to the emissions from air freighting 10 kg 0.4 times between London and New York."
+                        ],
+                        "modifiers": [
+                            "HABIT_DIET_AVERAGE"
+                        ],
+                        "factor_version": "v1_1"
+                    }
+                ]
+            }
+        },
+        {
+            "group": "Clothing",
+            "result": {
+                "emissions": 25.09,
+                "count": 1,
+                "fraction_of_total": 0.02,
+                "transactions": [
+                    {
+                        "currencyISO": "AUD",
+                        "price": 123.4,
+                        "geo": "AU",
+                        "group": "Clothing",
+                        "mcc": "5691",
+                        "emissions_level": "category",
+                        "name": "Men’s and Women’s Clothing Stores",
+                        "kg_of_CO2e_emissions": 25.09,
+                        "mt_of_CO2e_emissions": 0.0251,
+                        "similar_to": [
+                            "This is equivalent to the emissions from producing 1 kilograms of fabric.",
+                            "This is equivalent to the emissions from supplying 0.4 houses with tap water for one year.",
+                            "This is equivalent to the CO2 absorbed by planting and growing 0.4 trees for 10 years."
+                        ],
+                        "modifiers": [
+                            
+                        ],
+                        "factor_version": "v1_1"
+                    }
+                ]
+            }
+        },
+        {
+            "group": "Groceries",
+            "result": {
+                "emissions": 12.21,
+                "count": 1,
+                "fraction_of_total": 0.01,
+                "transactions": [
+                    {
+                        "geo": "AU",
+                        "price": 50.5,
+                        "group": "Groceries",
+                        "mcc": "5411",
+                        "currencyISO": "AUD",
+                        "emissions_level": "category",
+                        "name": "Grocery Stores and Supermarkets",
+                        "kg_of_CO2e_emissions": 12.21,
+                        "mt_of_CO2e_emissions": 0.0122,
+                        "similar_to": [
+                            "This is equivalent to the emissions saved by recycling 0.5 trash bags of waste instead of sending it to landfill.",
+                            "This is equivalent to the emissions from flying from London to Paris 0.2 times.",
+                            "This is equivalent to the emissions from flying from Berlin to Munich 0.1 times."
+                        ],
+                        "modifiers": [
+                            "HABIT_DIET_AVERAGE"
+                        ],
+                        "factor_version": "v1_1"
+                    }
+                ]
+            }
+        }
+    ],
+    "errors": {
+        "transactions": [
+            
+        ]
+    },
+    "disclaimer": "All calculations and data provided by Connect Earth are based on public and 3rd party sourced information and presented for informational purposes only. None of Connect Earth’s members or related parties provide any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the validity of any derivative analysis or conclusion based on the figures given or the suitability of our calculations or figures for any particular purposes."
+}

@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0965E12CB2EBE10010610B /* DietViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0965E02CB2EBE10010610B /* DietViewTest.swift */; };
+		3C0965E82CB33EEE0010610B /* ChallengeListViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0965E72CB33EEE0010610B /* ChallengeListViewTest.swift */; };
+		3C16466E2CBAB94600C2291C /* transportVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3C16466D2CBAB94600C2291C /* transportVideo.mp4 */; };
+		3C7509D12C9ED7D4003F806D /* DietView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7509D02C9ED7D3003F806D /* DietView.swift */; };
+		3C7509D52C9FC4D7003F806D /* ProfileMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7509D42C9FC4D7003F806D /* ProfileMetricsView.swift */; };
+		3C7CBC4B2C94A643007CF175 /* AetherFlowCatalog.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CBC4A2C94A643007CF175 /* AetherFlowCatalog.docc */; };
+		3C899B272CB8121300665405 /* foodVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3C899B262CB8121300665405 /* foodVideo.mp4 */; };
+		3C899B292CB8142F00665405 /* energyVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3C899B282CB8142F00665405 /* energyVideo.mp4 */; };
+		3C899B2F2CB816D100665405 /* clothesVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3C899B2E2CB816D100665405 /* clothesVideo.mp4 */; };
+		3C9384BD2C982E50000878DA /* AetherFlowTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9384BC2C982E50000878DA /* AetherFlowTabView.swift */; };
+		3CAC62222C78FA2D00C543FC /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAC62212C78FA2D00C543FC /* Challenge.swift */; };
+		3CAC62252C78FCB600C543FC /* ChallengesData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3CAC62242C78FCB600C543FC /* ChallengesData.json */; };
+		3CD2F4202CAC121700C1D554 /* Diet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2F41F2CAC121700C1D554 /* Diet.swift */; };
+		3CFC3CE22CA6E232005FF1D1 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 3CFC3CE12CA6E232005FF1D1 /* Auth0 */; };
+		3CFC3CE62CA6F013005FF1D1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFC3CE52CA6F013005FF1D1 /* User.swift */; };
+		3CFC3CE82CA6F368005FF1D1 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3CFC3CE72CA6F368005FF1D1 /* Auth0.plist */; };
+		4F120B4D2C7C544100C2E63D /* ReadTransactionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F120B4C2C7C544100C2E63D /* ReadTransactionData.swift */; };
+		4F120B4F2C7C59CD00C2E63D /* ReadChallengeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F120B4E2C7C59CD00C2E63D /* ReadChallengeData.swift */; };
+		4F16AE5C2C6CA28600005D0E /* AetherFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16AE5B2C6CA28600005D0E /* AetherFlow.swift */; };
+		4F16AE5E2C6CA28600005D0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16AE5D2C6CA28600005D0E /* ContentView.swift */; };
+		4F16AE602C6CA28700005D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F16AE5F2C6CA28700005D0E /* Assets.xcassets */; };
+		4F16AE632C6CA28700005D0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F16AE622C6CA28700005D0E /* Preview Assets.xcassets */; };
+		4F16AE6C2C6CADC700005D0E /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F16AE6B2C6CADC700005D0E /* StartView.swift */; };
+		4F1E22D72CAD7EBC0065BE60 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1E22D62CAD7EBC0065BE60 /* WidgetKit.framework */; };
+		4F1E22D92CAD7EBC0065BE60 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1E22D82CAD7EBC0065BE60 /* SwiftUI.framework */; };
+		4F1E22DC2CAD7EBC0065BE60 /* TotalEmissionsWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E22DB2CAD7EBC0065BE60 /* TotalEmissionsWidgetBundle.swift */; };
+		4F1E22E02CAD7EBC0065BE60 /* TotalEmissionsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1E22DF2CAD7EBC0065BE60 /* TotalEmissionsWidget.swift */; };
+		4F1E22E42CAD7EBE0065BE60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1E22E32CAD7EBE0065BE60 /* Assets.xcassets */; };
+		4F1E22E92CAD7EBE0065BE60 /* TotalEmissionsWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4F1E22D42CAD7EBC0065BE60 /* TotalEmissionsWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4F49CA982C74672600696996 /* MetricsSampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F49CA972C74672600696996 /* MetricsSampleData.json */; };
+		4F7F05F12C71BBB6004A2D0D /* TransactionData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4F7F05F02C71BBB6004A2D0D /* TransactionData.json */; };
+		4F7F05F42C71BE21004A2D0D /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F05F32C71BE21004A2D0D /* Transaction.swift */; };
+		4F7F05FB2C71D6E0004A2D0D /* FootprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F05FA2C71D6E0004A2D0D /* FootprintView.swift */; };
+		4F7F05FD2C71D908004A2D0D /* AddFootprintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F05FC2C71D908004A2D0D /* AddFootprintView.swift */; };
+		4F7F06012C71EB86004A2D0D /* ChallengeCategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F06002C71EB86004A2D0D /* ChallengeCategoriesView.swift */; };
+		4F7F060F2C71F1E0004A2D0D /* ChallengeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F060E2C71F1E0004A2D0D /* ChallengeListView.swift */; };
+		4F7F06162C72EE8F004A2D0D /* AetherFlowSineWaveLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7F06152C72EE8F004A2D0D /* AetherFlowSineWaveLayout.swift */; };
+		4FC409E12CB60AC100C57C4E /* FootprintEquivalentsListViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC409E02CB60AC100C57C4E /* FootprintEquivalentsListViewTests.swift */; };
+		4FC409E32CB6189900C57C4E /* AddFootprintViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC409E22CB6189900C57C4E /* AddFootprintViewTests.swift */; };
+		4FC409E52CB6398100C57C4E /* ProfileMetricsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC409E42CB6398100C57C4E /* ProfileMetricsViewTests.swift */; };
+		4FC409EC2CB7AFD900C57C4E /* TotalEmissionsWidgetCatalog.docc in Sources */ = {isa = PBXBuildFile; fileRef = 4FC409EA2CB7AF2400C57C4E /* TotalEmissionsWidgetCatalog.docc */; };
+		4FCF12402CB0FA6400A0F3EF /* TotalEmissionsEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCF123E2CB0F9FC00A0F3EF /* TotalEmissionsEntry.swift */; };
+		4FE8B1C02CAEDDF2004FE990 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE8B1BF2CAEDDF2004FE990 /* AppIntent.swift */; };
+		4FEAA1C42CB0FC14005FAF6B /* TotalEmissionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCF12432CB0FADB00A0F3EF /* TotalEmissionsProvider.swift */; };
+		4FEAA1C52CB0FC1E005FAF6B /* TotalEmissionsWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FCF12412CB0FA9C00A0F3EF /* TotalEmissionsWidgetEntryView.swift */; };
+		4FEAA1C72CB0FF5C005FAF6B /* SmallEmissionsWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1C62CB0FF5C005FAF6B /* SmallEmissionsWidgetView.swift */; };
+		4FEAA1C92CB0FF90005FAF6B /* MediumEmissionsWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1C82CB0FF90005FAF6B /* MediumEmissionsWidgetView.swift */; };
+		4FEAA1CC2CB0FFC1005FAF6B /* LargeEmissionsWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1CB2CB0FFC1005FAF6B /* LargeEmissionsWidgetView.swift */; };
+		4FEAA1CE2CB0FFFB005FAF6B /* EmissionIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1CD2CB0FFFB005FAF6B /* EmissionIconView.swift */; };
+		4FEAA1D02CB1004E005FAF6B /* EmissionIconAndValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEAA1CF2CB1004E005FAF6B /* EmissionIconAndValueView.swift */; };
+		4FF37D962CAACB4200512772 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF37D952CAACB4200512772 /* APIService.swift */; };
+		4FF37D982CAACE3700512772 /* ProfileMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF37D972CAACE3700512772 /* ProfileMetric.swift */; };
+		4FF37D9A2CAAD05A00512772 /* ProfileMetricGroupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF37D992CAAD05A00512772 /* ProfileMetricGroupItem.swift */; };
+		4FF37D9C2CAAD37300512772 /* ProfileMetricSampleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 4FF37D9B2CAAD37300512772 /* ProfileMetricSampleData.json */; };
+		4FF9AC8F2CB3AADD001F6AF0 /* FootprintEquivalentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF9AC8E2CB3AADD001F6AF0 /* FootprintEquivalentsListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C0965E22CB2EBE10010610B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F16AE502C6CA28500005D0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F16AE572C6CA28600005D0E;
+			remoteInfo = AetherFlow;
+		};
+		4F1E22E62CAD7EBE0065BE60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F16AE502C6CA28500005D0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F1E22D32CAD7EBC0065BE60;
+			remoteInfo = TotalEmissionsWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F1E22E82CAD7EBE0065BE60 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F1E22E92CAD7EBE0065BE60 /* TotalEmissionsWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C0965DE2CB2EBE10010610B /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0965E02CB2EBE10010610B /* DietViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewTest.swift; sourceTree = "<group>"; };
+		3C0965E72CB33EEE0010610B /* ChallengeListViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeListViewTest.swift; sourceTree = "<group>"; };
+		3C16466D2CBAB94600C2291C /* transportVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = transportVideo.mp4; sourceTree = "<group>"; };
+		3C7509D02C9ED7D3003F806D /* DietView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietView.swift; sourceTree = "<group>"; };
+		3C7509D42C9FC4D7003F806D /* ProfileMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMetricsView.swift; sourceTree = "<group>"; };
+		3C7CBC4A2C94A643007CF175 /* AetherFlowCatalog.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AetherFlowCatalog.docc; sourceTree = "<group>"; };
+		3C899B262CB8121300665405 /* foodVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = foodVideo.mp4; sourceTree = "<group>"; };
+		3C899B282CB8142F00665405 /* energyVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = energyVideo.mp4; sourceTree = "<group>"; };
+		3C899B2E2CB816D100665405 /* clothesVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = clothesVideo.mp4; sourceTree = "<group>"; };
+		3C9384BC2C982E50000878DA /* AetherFlowTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AetherFlowTabView.swift; sourceTree = "<group>"; };
+		3CAC62212C78FA2D00C543FC /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		3CAC62242C78FCB600C543FC /* ChallengesData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ChallengesData.json; sourceTree = "<group>"; };
+		3CD2F41F2CAC121700C1D554 /* Diet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diet.swift; sourceTree = "<group>"; };
+		3CFC3CE52CA6F013005FF1D1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3CFC3CE72CA6F368005FF1D1 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		4F0F9FE72CBB64300041DC36 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		4F10D5BD2CAE5D6D00EE3B37 /* TotalEmissionsWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TotalEmissionsWidgetExtension.entitlements; sourceTree = "<group>"; };
+		4F120B4C2C7C544100C2E63D /* ReadTransactionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTransactionData.swift; sourceTree = "<group>"; };
+		4F120B4E2C7C59CD00C2E63D /* ReadChallengeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadChallengeData.swift; sourceTree = "<group>"; };
+		4F16AE582C6CA28600005D0E /* AetherFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AetherFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F16AE5B2C6CA28600005D0E /* AetherFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AetherFlow.swift; sourceTree = "<group>"; };
+		4F16AE5D2C6CA28600005D0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F16AE5F2C6CA28700005D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F16AE622C6CA28700005D0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F16AE6B2C6CADC700005D0E /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		4F1E22D42CAD7EBC0065BE60 /* TotalEmissionsWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TotalEmissionsWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1E22D62CAD7EBC0065BE60 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4F1E22D82CAD7EBC0065BE60 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4F1E22DB2CAD7EBC0065BE60 /* TotalEmissionsWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalEmissionsWidgetBundle.swift; path = TotalEmissionsWidget/TotalEmissionsWidgetBundle.swift; sourceTree = SOURCE_ROOT; };
+		4F1E22DF2CAD7EBC0065BE60 /* TotalEmissionsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalEmissionsWidget.swift; path = TotalEmissionsWidget/TotalEmissionsWidget.swift; sourceTree = SOURCE_ROOT; };
+		4F1E22E32CAD7EBE0065BE60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F1E22E52CAD7EBE0065BE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F49CA972C74672600696996 /* MetricsSampleData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MetricsSampleData.json; sourceTree = "<group>"; };
+		4F4A25582CA52FC10007A161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4F7F05F02C71BBB6004A2D0D /* TransactionData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TransactionData.json; sourceTree = "<group>"; };
+		4F7F05F32C71BE21004A2D0D /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		4F7F05FA2C71D6E0004A2D0D /* FootprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintView.swift; sourceTree = "<group>"; };
+		4F7F05FC2C71D908004A2D0D /* AddFootprintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFootprintView.swift; sourceTree = "<group>"; };
+		4F7F06002C71EB86004A2D0D /* ChallengeCategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCategoriesView.swift; sourceTree = "<group>"; };
+		4F7F060E2C71F1E0004A2D0D /* ChallengeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeListView.swift; sourceTree = "<group>"; };
+		4F7F06152C72EE8F004A2D0D /* AetherFlowSineWaveLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AetherFlowSineWaveLayout.swift; sourceTree = "<group>"; };
+		4FC409E02CB60AC100C57C4E /* FootprintEquivalentsListViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintEquivalentsListViewTests.swift; sourceTree = "<group>"; };
+		4FC409E22CB6189900C57C4E /* AddFootprintViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFootprintViewTests.swift; sourceTree = "<group>"; };
+		4FC409E42CB6398100C57C4E /* ProfileMetricsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMetricsViewTests.swift; sourceTree = "<group>"; };
+		4FC409EA2CB7AF2400C57C4E /* TotalEmissionsWidgetCatalog.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TotalEmissionsWidgetCatalog.docc; sourceTree = "<group>"; };
+		4FCF123E2CB0F9FC00A0F3EF /* TotalEmissionsEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalEmissionsEntry.swift; path = TotalEmissionsWidget/Model/TotalEmissionsEntry.swift; sourceTree = SOURCE_ROOT; };
+		4FCF12412CB0FA9C00A0F3EF /* TotalEmissionsWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalEmissionsWidgetEntryView.swift; path = TotalEmissionsWidget/View/TotalEmissionsWidgetEntryView.swift; sourceTree = SOURCE_ROOT; };
+		4FCF12432CB0FADB00A0F3EF /* TotalEmissionsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TotalEmissionsProvider.swift; path = TotalEmissionsWidget/TotalEmissionsProvider.swift; sourceTree = SOURCE_ROOT; };
+		4FE8B1BF2CAEDDF2004FE990 /* AppIntent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		4FEAA1C62CB0FF5C005FAF6B /* SmallEmissionsWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallEmissionsWidgetView.swift; sourceTree = "<group>"; };
+		4FEAA1C82CB0FF90005FAF6B /* MediumEmissionsWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumEmissionsWidgetView.swift; sourceTree = "<group>"; };
+		4FEAA1CB2CB0FFC1005FAF6B /* LargeEmissionsWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeEmissionsWidgetView.swift; sourceTree = "<group>"; };
+		4FEAA1CD2CB0FFFB005FAF6B /* EmissionIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmissionIconView.swift; sourceTree = "<group>"; };
+		4FEAA1CF2CB1004E005FAF6B /* EmissionIconAndValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmissionIconAndValueView.swift; sourceTree = "<group>"; };
+		4FF37D952CAACB4200512772 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		4FF37D972CAACE3700512772 /* ProfileMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMetric.swift; sourceTree = "<group>"; };
+		4FF37D992CAAD05A00512772 /* ProfileMetricGroupItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileMetricGroupItem.swift; sourceTree = "<group>"; };
+		4FF37D9B2CAAD37300512772 /* ProfileMetricSampleData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ProfileMetricSampleData.json; sourceTree = "<group>"; };
+		4FF9AC8E2CB3AADD001F6AF0 /* FootprintEquivalentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootprintEquivalentsListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C0965DB2CB2EBE10010610B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F16AE552C6CA28600005D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CFC3CE22CA6E232005FF1D1 /* Auth0 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1E22D12CAD7EBC0065BE60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1E22D92CAD7EBC0065BE60 /* SwiftUI.framework in Frameworks */,
+				4F1E22D72CAD7EBC0065BE60 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C0965DF2CB2EBE10010610B /* UnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C0965E02CB2EBE10010610B /* DietViewTest.swift */,
+				3C0965E72CB33EEE0010610B /* ChallengeListViewTest.swift */,
+				4FC409E02CB60AC100C57C4E /* FootprintEquivalentsListViewTests.swift */,
+				4FC409E22CB6189900C57C4E /* AddFootprintViewTests.swift */,
+				4FC409E42CB6398100C57C4E /* ProfileMetricsViewTests.swift */,
+			);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		4F120B4B2C7C541200C2E63D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4F120B4C2C7C544100C2E63D /* ReadTransactionData.swift */,
+				4F120B4E2C7C59CD00C2E63D /* ReadChallengeData.swift */,
+				4FF37D952CAACB4200512772 /* APIService.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4F16AE4F2C6CA28500005D0E = {
+			isa = PBXGroup;
+			children = (
+				4F10D5BD2CAE5D6D00EE3B37 /* TotalEmissionsWidgetExtension.entitlements */,
+				4F16AE5A2C6CA28600005D0E /* AetherFlow */,
+				4F1E22DA2CAD7EBC0065BE60 /* TotalEmissionsWidget */,
+				3C0965DF2CB2EBE10010610B /* UnitTests */,
+				4F1E22D52CAD7EBC0065BE60 /* Frameworks */,
+				4F16AE592C6CA28600005D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F16AE592C6CA28600005D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F16AE582C6CA28600005D0E /* AetherFlow.app */,
+				4F1E22D42CAD7EBC0065BE60 /* TotalEmissionsWidgetExtension.appex */,
+				3C0965DE2CB2EBE10010610B /* UnitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F16AE5A2C6CA28600005D0E /* AetherFlow */ = {
+			isa = PBXGroup;
+			children = (
+				4F0F9FE72CBB64300041DC36 /* Config.xcconfig */,
+				4F4A25582CA52FC10007A161 /* Info.plist */,
+				3CFC3CE72CA6F368005FF1D1 /* Auth0.plist */,
+				4F16AE5B2C6CA28600005D0E /* AetherFlow.swift */,
+				3C7CBC4A2C94A643007CF175 /* AetherFlowCatalog.docc */,
+				4F7F05F92C71D444004A2D0D /* View */,
+				4F7F05F22C71BE10004A2D0D /* Model */,
+				4F7F05EF2C71BB98004A2D0D /* MockData */,
+				4F120B4B2C7C541200C2E63D /* Utilities */,
+				4F16AE5F2C6CA28700005D0E /* Assets.xcassets */,
+				3C899B262CB8121300665405 /* foodVideo.mp4 */,
+				3C899B2E2CB816D100665405 /* clothesVideo.mp4 */,
+				3C899B282CB8142F00665405 /* energyVideo.mp4 */,
+				3C16466D2CBAB94600C2291C /* transportVideo.mp4 */,
+				4F16AE612C6CA28700005D0E /* Preview Content */,
+			);
+			path = AetherFlow;
+			sourceTree = "<group>";
+		};
+		4F16AE612C6CA28700005D0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4F16AE622C6CA28700005D0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4F1E22D52CAD7EBC0065BE60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1E22D62CAD7EBC0065BE60 /* WidgetKit.framework */,
+				4F1E22D82CAD7EBC0065BE60 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F1E22DA2CAD7EBC0065BE60 /* TotalEmissionsWidget */ = {
+			isa = PBXGroup;
+			children = (
+				4FC409EA2CB7AF2400C57C4E /* TotalEmissionsWidgetCatalog.docc */,
+				4FCF123C2CB0F9DD00A0F3EF /* Model */,
+				4FCF123D2CB0F9E200A0F3EF /* View */,
+				4FE8B1BF2CAEDDF2004FE990 /* AppIntent.swift */,
+				4F1E22DB2CAD7EBC0065BE60 /* TotalEmissionsWidgetBundle.swift */,
+				4F1E22DF2CAD7EBC0065BE60 /* TotalEmissionsWidget.swift */,
+				4FCF12432CB0FADB00A0F3EF /* TotalEmissionsProvider.swift */,
+				4F1E22E32CAD7EBE0065BE60 /* Assets.xcassets */,
+				4F1E22E52CAD7EBE0065BE60 /* Info.plist */,
+			);
+			path = TotalEmissionsWidget;
+			sourceTree = "<group>";
+		};
+		4F7F05EF2C71BB98004A2D0D /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				4F7F05F02C71BBB6004A2D0D /* TransactionData.json */,
+				4F49CA972C74672600696996 /* MetricsSampleData.json */,
+				3CAC62242C78FCB600C543FC /* ChallengesData.json */,
+				4FF37D9B2CAAD37300512772 /* ProfileMetricSampleData.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		4F7F05F22C71BE10004A2D0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F7F05F32C71BE21004A2D0D /* Transaction.swift */,
+				3CAC62212C78FA2D00C543FC /* Challenge.swift */,
+				3CFC3CE52CA6F013005FF1D1 /* User.swift */,
+				4FF37D972CAACE3700512772 /* ProfileMetric.swift */,
+				4FF37D992CAAD05A00512772 /* ProfileMetricGroupItem.swift */,
+				3CD2F41F2CAC121700C1D554 /* Diet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F7F05F92C71D444004A2D0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F16AE5D2C6CA28600005D0E /* ContentView.swift */,
+				4F16AE6B2C6CADC700005D0E /* StartView.swift */,
+				3C9384BC2C982E50000878DA /* AetherFlowTabView.swift */,
+				3C7509D02C9ED7D3003F806D /* DietView.swift */,
+				4F7F05FA2C71D6E0004A2D0D /* FootprintView.swift */,
+				4F7F05FC2C71D908004A2D0D /* AddFootprintView.swift */,
+				4F7F06002C71EB86004A2D0D /* ChallengeCategoriesView.swift */,
+				4F7F060E2C71F1E0004A2D0D /* ChallengeListView.swift */,
+				3C7509D42C9FC4D7003F806D /* ProfileMetricsView.swift */,
+				4FF9AC8E2CB3AADD001F6AF0 /* FootprintEquivalentsListView.swift */,
+				4F7F06152C72EE8F004A2D0D /* AetherFlowSineWaveLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4FCF123C2CB0F9DD00A0F3EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4FCF123E2CB0F9FC00A0F3EF /* TotalEmissionsEntry.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4FCF123D2CB0F9E200A0F3EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FCF12412CB0FA9C00A0F3EF /* TotalEmissionsWidgetEntryView.swift */,
+				4FEAA1C62CB0FF5C005FAF6B /* SmallEmissionsWidgetView.swift */,
+				4FEAA1C82CB0FF90005FAF6B /* MediumEmissionsWidgetView.swift */,
+				4FEAA1CB2CB0FFC1005FAF6B /* LargeEmissionsWidgetView.swift */,
+				4FEAA1CD2CB0FFFB005FAF6B /* EmissionIconView.swift */,
+				4FEAA1CF2CB1004E005FAF6B /* EmissionIconAndValueView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C0965DD2CB2EBE10010610B /* UnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0965E62CB2EBE10010610B /* Build configuration list for PBXNativeTarget "UnitTests" */;
+			buildPhases = (
+				3C0965DA2CB2EBE10010610B /* Sources */,
+				3C0965DB2CB2EBE10010610B /* Frameworks */,
+				3C0965DC2CB2EBE10010610B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C0965E32CB2EBE10010610B /* PBXTargetDependency */,
+			);
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = 3C0965DE2CB2EBE10010610B /* UnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F16AE572C6CA28600005D0E /* AetherFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F16AE662C6CA28700005D0E /* Build configuration list for PBXNativeTarget "AetherFlow" */;
+			buildPhases = (
+				4F16AE542C6CA28600005D0E /* Sources */,
+				4F16AE552C6CA28600005D0E /* Frameworks */,
+				4F16AE562C6CA28600005D0E /* Resources */,
+				4F1E22E82CAD7EBE0065BE60 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F1E22E72CAD7EBE0065BE60 /* PBXTargetDependency */,
+			);
+			name = AetherFlow;
+			packageProductDependencies = (
+				3CFC3CE12CA6E232005FF1D1 /* Auth0 */,
+			);
+			productName = CarbonEraser;
+			productReference = 4F16AE582C6CA28600005D0E /* AetherFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F1E22D32CAD7EBC0065BE60 /* TotalEmissionsWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F1E22EC2CAD7EBE0065BE60 /* Build configuration list for PBXNativeTarget "TotalEmissionsWidgetExtension" */;
+			buildPhases = (
+				4F1E22D02CAD7EBC0065BE60 /* Sources */,
+				4F1E22D12CAD7EBC0065BE60 /* Frameworks */,
+				4F1E22D22CAD7EBC0065BE60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TotalEmissionsWidgetExtension;
+			productName = TotalEmissionsWidgetExtension;
+			productReference = 4F1E22D42CAD7EBC0065BE60 /* TotalEmissionsWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F16AE502C6CA28500005D0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3C0965DD2CB2EBE10010610B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4F16AE572C6CA28600005D0E;
+					};
+					4F16AE572C6CA28600005D0E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4F1E22D32CAD7EBC0065BE60 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 4F16AE532C6CA28500005D0E /* Build configuration list for PBXProject "AetherFlow" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F16AE4F2C6CA28500005D0E;
+			packageReferences = (
+				3CFC3CE02CA6E232005FF1D1 /* XCRemoteSwiftPackageReference "Auth0.swift" */,
+			);
+			productRefGroup = 4F16AE592C6CA28600005D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F16AE572C6CA28600005D0E /* AetherFlow */,
+				4F1E22D32CAD7EBC0065BE60 /* TotalEmissionsWidgetExtension */,
+				3C0965DD2CB2EBE10010610B /* UnitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C0965DC2CB2EBE10010610B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F16AE562C6CA28600005D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F16AE632C6CA28700005D0E /* Preview Assets.xcassets in Resources */,
+				3C899B2F2CB816D100665405 /* clothesVideo.mp4 in Resources */,
+				3C899B272CB8121300665405 /* foodVideo.mp4 in Resources */,
+				3CFC3CE82CA6F368005FF1D1 /* Auth0.plist in Resources */,
+				3C16466E2CBAB94600C2291C /* transportVideo.mp4 in Resources */,
+				4FF37D9C2CAAD37300512772 /* ProfileMetricSampleData.json in Resources */,
+				4F49CA982C74672600696996 /* MetricsSampleData.json in Resources */,
+				3CAC62252C78FCB600C543FC /* ChallengesData.json in Resources */,
+				4F7F05F12C71BBB6004A2D0D /* TransactionData.json in Resources */,
+				3C899B292CB8142F00665405 /* energyVideo.mp4 in Resources */,
+				4F16AE602C6CA28700005D0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1E22D22CAD7EBC0065BE60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F1E22E42CAD7EBE0065BE60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C0965DA2CB2EBE10010610B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC409E52CB6398100C57C4E /* ProfileMetricsViewTests.swift in Sources */,
+				4FC409E12CB60AC100C57C4E /* FootprintEquivalentsListViewTests.swift in Sources */,
+				3C0965E82CB33EEE0010610B /* ChallengeListViewTest.swift in Sources */,
+				4FC409E32CB6189900C57C4E /* AddFootprintViewTests.swift in Sources */,
+				3C0965E12CB2EBE10010610B /* DietViewTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F16AE542C6CA28600005D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF9AC8F2CB3AADD001F6AF0 /* FootprintEquivalentsListView.swift in Sources */,
+				3CFC3CE62CA6F013005FF1D1 /* User.swift in Sources */,
+				4FF37D982CAACE3700512772 /* ProfileMetric.swift in Sources */,
+				4F7F060F2C71F1E0004A2D0D /* ChallengeListView.swift in Sources */,
+				4F7F06162C72EE8F004A2D0D /* AetherFlowSineWaveLayout.swift in Sources */,
+				4FF37D9A2CAAD05A00512772 /* ProfileMetricGroupItem.swift in Sources */,
+				4F16AE5E2C6CA28600005D0E /* ContentView.swift in Sources */,
+				4F7F05FD2C71D908004A2D0D /* AddFootprintView.swift in Sources */,
+				4F120B4D2C7C544100C2E63D /* ReadTransactionData.swift in Sources */,
+				3CAC62222C78FA2D00C543FC /* Challenge.swift in Sources */,
+				3C7509D12C9ED7D4003F806D /* DietView.swift in Sources */,
+				4F7F05F42C71BE21004A2D0D /* Transaction.swift in Sources */,
+				3C7CBC4B2C94A643007CF175 /* AetherFlowCatalog.docc in Sources */,
+				3C9384BD2C982E50000878DA /* AetherFlowTabView.swift in Sources */,
+				4F16AE5C2C6CA28600005D0E /* AetherFlow.swift in Sources */,
+				4F7F05FB2C71D6E0004A2D0D /* FootprintView.swift in Sources */,
+				3CD2F4202CAC121700C1D554 /* Diet.swift in Sources */,
+				4F16AE6C2C6CADC700005D0E /* StartView.swift in Sources */,
+				4FF37D962CAACB4200512772 /* APIService.swift in Sources */,
+				4F7F06012C71EB86004A2D0D /* ChallengeCategoriesView.swift in Sources */,
+				3C7509D52C9FC4D7003F806D /* ProfileMetricsView.swift in Sources */,
+				4F120B4F2C7C59CD00C2E63D /* ReadChallengeData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F1E22D02CAD7EBC0065BE60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FC409EC2CB7AFD900C57C4E /* TotalEmissionsWidgetCatalog.docc in Sources */,
+				4FCF12402CB0FA6400A0F3EF /* TotalEmissionsEntry.swift in Sources */,
+				4FEAA1C72CB0FF5C005FAF6B /* SmallEmissionsWidgetView.swift in Sources */,
+				4F1E22E02CAD7EBC0065BE60 /* TotalEmissionsWidget.swift in Sources */,
+				4F1E22DC2CAD7EBC0065BE60 /* TotalEmissionsWidgetBundle.swift in Sources */,
+				4FEAA1C92CB0FF90005FAF6B /* MediumEmissionsWidgetView.swift in Sources */,
+				4FEAA1C52CB0FC1E005FAF6B /* TotalEmissionsWidgetEntryView.swift in Sources */,
+				4FEAA1CE2CB0FFFB005FAF6B /* EmissionIconView.swift in Sources */,
+				4FEAA1C42CB0FC14005FAF6B /* TotalEmissionsProvider.swift in Sources */,
+				4FEAA1CC2CB0FFC1005FAF6B /* LargeEmissionsWidgetView.swift in Sources */,
+				4FEAA1D02CB1004E005FAF6B /* EmissionIconAndValueView.swift in Sources */,
+				4FE8B1C02CAEDDF2004FE990 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C0965E32CB2EBE10010610B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F16AE572C6CA28600005D0E /* AetherFlow */;
+			targetProxy = 3C0965E22CB2EBE10010610B /* PBXContainerItemProxy */;
+		};
+		4F1E22E72CAD7EBE0065BE60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F1E22D32CAD7EBC0065BE60 /* TotalEmissionsWidgetExtension */;
+			targetProxy = 4F1E22E62CAD7EBE0065BE60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C0965E42CB2EBE10010610B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F9FE72CBB64300041DC36 /* Config.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AetherFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AetherFlow";
+			};
+			name = Debug;
+		};
+		3C0965E52CB2EBE10010610B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F9FE72CBB64300041DC36 /* Config.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rmit.UnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AetherFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AetherFlow";
+			};
+			name = Release;
+		};
+		4F16AE642C6CA28700005D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F9FE72CBB64300041DC36 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F16AE652C6CA28700005D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F9FE72CBB64300041DC36 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F16AE672C6CA28700005D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F9FE72CBB64300041DC36 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AetherFlow/AetherFlow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AetherFlow/Preview Content\"";
+				DEVELOPMENT_TEAM = P2LRQNYT74;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AetherFlow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gabbysan.rmit.AetherFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F16AE682C6CA28700005D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F9FE72CBB64300041DC36 /* Config.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = AetherFlow/AetherFlow.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AetherFlow/Preview Content\"";
+				DEVELOPMENT_TEAM = P2LRQNYT74;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AetherFlow/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gabbysan.rmit.AetherFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4F1E22EA2CAD7EBE0065BE60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F9FE72CBB64300041DC36 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TotalEmissionsWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LRQNYT74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TotalEmissionsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TotalEmissionsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gabbysan.rmit.AetherFlow.TotalEmissionsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F1E22EB2CAD7EBE0065BE60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0F9FE72CBB64300041DC36 /* Config.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TotalEmissionsWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P2LRQNYT74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TotalEmissionsWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TotalEmissionsWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gabbysan.rmit.AetherFlow.TotalEmissionsWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C0965E62CB2EBE10010610B /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C0965E42CB2EBE10010610B /* Debug */,
+				3C0965E52CB2EBE10010610B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F16AE532C6CA28500005D0E /* Build configuration list for PBXProject "AetherFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F16AE642C6CA28700005D0E /* Debug */,
+				4F16AE652C6CA28700005D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F16AE662C6CA28700005D0E /* Build configuration list for PBXNativeTarget "AetherFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F16AE672C6CA28700005D0E /* Debug */,
+				4F16AE682C6CA28700005D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F1E22EC2CAD7EBE0065BE60 /* Build configuration list for PBXNativeTarget "TotalEmissionsWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F1E22EA2CAD7EBE0065BE60 /* Debug */,
+				4F1E22EB2CAD7EBE0065BE60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3CFC3CE02CA6E232005FF1D1 /* XCRemoteSwiftPackageReference "Auth0.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3CFC3CE12CA6E232005FF1D1 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3CFC3CE02CA6E232005FF1D1 /* XCRemoteSwiftPackageReference "Auth0.swift" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4F16AE502C6CA28500005D0E /* Project object */;
+}

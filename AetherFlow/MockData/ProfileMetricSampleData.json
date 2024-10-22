@@ -1,0 +1,210 @@
+[
+    {
+        "userId": "luke",
+        "emissions_total": 1200,
+        "transaction_count": 6,
+        "month": "October",
+        "timestamp": 1727853336,
+        "well_done_comments": [
+            "Well done for using electric vehicle charging!"
+        ],
+        "recommendations": [
+            "Eating less meat can be a quick and easy way to reduce your overall emissions.",
+            "Opt for air drying! It's as vital as choosing the right wash temperature, promoting both clothing longevity and a lower environmental footprint.",
+            "Just reducing your red meat consumption can have a significant impact. The carbon impact of chicken is 8 times lower than the carbon impact of beef, on average, per gram of protein."
+        ],
+        "equivalents": [
+            "This is equivalent to the emissions from flying a light private jet for 0.7 hours. ",
+            "This is equivalent to the emissions from providing 0.6 UK homes with gas for a year.",
+            "This is equivalent to the emissions from flying from London to New York 1 times."
+        ],
+        "groups": [
+            {
+                "group": "Food",
+                "emissions": 75,
+                "count": 1,
+                "fraction_of_total": 0.06
+            },
+            {
+                "group": "Clothing",
+                "emissions": 25,
+                "count": 1,
+                "fraction_of_total": 0.02
+            },
+            {
+                "group": "Energy",
+                "emissions": 300,
+                "count": 1,
+                "fraction_of_total": 0.25
+            },
+            {
+                "group": "Transport",
+                "emissions": 800,
+                "count": 1,
+                "fraction_of_total": 0.66
+            }
+        ],
+        "errors": {
+            "transactions": [
+                
+            ]
+        },
+        "disclaimer": "All calculations and data provided by Connect Earth are based on public and 3rd party sourced information and presented for informational purposes only. None of Connect Earth’s members or related parties provide any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the validity of any derivative analysis or conclusion based on the figures given or the suitability of our calculations or figures for any particular purposes."
+    },
+    {
+        "userId": "luke",
+        "emissions_total": 1400,
+        "transaction_count": 6,
+        "month": "September",
+        "timestamp": 1725261336,
+        "well_done_comments": [
+            "Well done for using electric vehicle charging!"
+        ],
+        "recommendations": [
+            "Eating less meat can be a quick and easy way to reduce your overall emissions.",
+            "Opt for air drying! It's as vital as choosing the right wash temperature, promoting both clothing longevity and a lower environmental footprint.",
+            "Just reducing your red meat consumption can have a significant impact. The carbon impact of chicken is 8 times lower than the carbon impact of beef, on average, per gram of protein."
+        ],
+        "equivalents": [
+            "This is equivalent to the emissions from flying a light private jet for 0.7 hours. ",
+            "This is equivalent to the emissions from providing 0.6 UK homes with gas for a year.",
+            "This is equivalent to the emissions from flying from London to New York 1 times."
+        ],
+        "groups": [
+            {
+                "group": "Food",
+                "emissions": 175,
+                "count": 1,
+                "fraction_of_total": 0.06
+            },
+            {
+                "group": "Clothing",
+                "emissions": 125,
+                "count": 1,
+                "fraction_of_total": 0.02
+            },
+            {
+                "group": "Energy",
+                "emissions": 300,
+                "count": 1,
+                "fraction_of_total": 0.25
+            },
+            {
+                "group": "Transport",
+                "emissions": 800,
+                "count": 1,
+                "fraction_of_total": 0.66
+            }
+        ],
+        "errors": {
+            "transactions": [
+                
+            ]
+        },
+        "disclaimer": "All calculations and data provided by Connect Earth are based on public and 3rd party sourced information and presented for informational purposes only. None of Connect Earth’s members or related parties provide any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the validity of any derivative analysis or conclusion based on the figures given or the suitability of our calculations or figures for any particular purposes."
+    },
+    {
+        "userId": "luke",
+        "emissions_total": 1500,
+        "transaction_count": 6,
+        "month": "August",
+        "timestamp": 1722582936,
+        "well_done_comments": [
+            "Well done for using electric vehicle charging!"
+        ],
+        "recommendations": [
+            "Eating less meat can be a quick and easy way to reduce your overall emissions.",
+            "Opt for air drying! It's as vital as choosing the right wash temperature, promoting both clothing longevity and a lower environmental footprint.",
+            "Just reducing your red meat consumption can have a significant impact. The carbon impact of chicken is 8 times lower than the carbon impact of beef, on average, per gram of protein."
+        ],
+        "equivalents": [
+            "This is equivalent to the emissions from flying a light private jet for 0.7 hours. ",
+            "This is equivalent to the emissions from providing 0.6 UK homes with gas for a year.",
+            "This is equivalent to the emissions from flying from London to New York 1 times."
+        ],
+        "groups": [
+            {
+                "group": "Food",
+                "emissions": 175,
+                "count": 1,
+                "fraction_of_total": 0.06
+            },
+            {
+                "group": "Clothing",
+                "emissions": 125,
+                "count": 1,
+                "fraction_of_total": 0.02
+            },
+            {
+                "group": "Energy",
+                "emissions": 400,
+                "count": 1,
+                "fraction_of_total": 0.25
+            },
+            {
+                "group": "Transport",
+                "emissions": 800,
+                "count": 1,
+                "fraction_of_total": 0.66
+            }
+        ],
+        "errors": {
+            "transactions": [
+                
+            ]
+        },
+        "disclaimer": "All calculations and data provided by Connect Earth are based on public and 3rd party sourced information and presented for informational purposes only. None of Connect Earth’s members or related parties provide any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the validity of any derivative analysis or conclusion based on the figures given or the suitability of our calculations or figures for any particular purposes."
+    },
+    {
+        "userId": "luke",
+        "emissions_total": 1800,
+        "transaction_count": 6,
+        "month": "July",
+        "timestamp": 1719904536,
+        "well_done_comments": [
+            "Well done for using electric vehicle charging!"
+        ],
+        "recommendations": [
+            "Eating less meat can be a quick and easy way to reduce your overall emissions.",
+            "Opt for air drying! It's as vital as choosing the right wash temperature, promoting both clothing longevity and a lower environmental footprint.",
+            "Just reducing your red meat consumption can have a significant impact. The carbon impact of chicken is 8 times lower than the carbon impact of beef, on average, per gram of protein."
+        ],
+        "equivalents": [
+            "This is equivalent to the emissions from flying a light private jet for 0.7 hours. ",
+            "This is equivalent to the emissions from providing 0.6 UK homes with gas for a year.",
+            "This is equivalent to the emissions from flying from London to New York 1 times."
+        ],
+        "groups": [
+            {
+                "group": "Food",
+                "emissions": 175,
+                "count": 1,
+                "fraction_of_total": 0.06
+            },
+            {
+                "group": "Clothing",
+                "emissions": 125,
+                "count": 1,
+                "fraction_of_total": 0.02
+            },
+            {
+                "group": "Energy",
+                "emissions": 550,
+                "count": 1,
+                "fraction_of_total": 0.25
+            },
+            {
+                "group": "Transport",
+                "emissions": 950,
+                "count": 1,
+                "fraction_of_total": 0.66
+            }
+        ],
+        "errors": {
+            "transactions": [
+                
+            ]
+        },
+        "disclaimer": "All calculations and data provided by Connect Earth are based on public and 3rd party sourced information and presented for informational purposes only. None of Connect Earth’s members or related parties provide any prediction, warranty or representation whatsoever, expressly or impliedly, either as to the validity of any derivative analysis or conclusion based on the figures given or the suitability of our calculations or figures for any particular purposes."
+    }
+]

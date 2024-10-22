@@ -1,0 +1,107 @@
+[
+    {
+        "userId": "luke",
+        "group": "Groceries",
+        "mcc": "5411",
+        "name": "ALDI",
+        "price": 50.5,
+        "kg_of_CO2e_emissions": 12.21,
+        "mt_of_CO2e_emissions": 0.0122,
+        "timestamp": 1723958477,
+        "similar_to": [
+            "This is equivalent to the emissions saved by recycling 0.5 trash bags of waste instead of sending it to landfill.",
+            "This is equivalent to the emissions from flying from London to Paris 0.2 times.",
+            "This is equivalent to the emissions from flying from Berlin to Munich 0.1 times."
+        ],
+    },
+    {
+        "userId": "luke",
+        "group": "Cafes and Restaurants",
+        "mcc": "5812",
+        "name": "Supernormal",
+        "price": 123.4,
+        "kg_of_CO2e_emissions": 28.57,
+        "mt_of_CO2e_emissions": 0.0286,
+        "timestamp": 1723358336,
+        "similar_to": [
+            "This is equivalent to the emissions from flying from Berlin to Munich 0.3 times.",
+            "This is equivalent to the emissions from flying from London to Paris 0.4 times.",
+            "This is equivalent to the emissions from air freighting 10 kg 0.4 times between London and New York."
+        ]
+    },
+    {
+        "userId": "luke",
+        "group": "Clothing",
+        "mcc": "5691",
+        "name": "R.M. Williams",
+        "price": 420,
+        "kg_of_CO2e_emissions": 25.09,
+        "mt_of_CO2e_emissions": 0.0251,
+        "timestamp": 1719902336,
+        "similar_to": [
+            "This is equivalent to the CO2 absorbed by planting and growing 0.4 trees for 10 years.",
+            "This is equivalent to the emissions from flying from London to Paris 0.3 times.",
+            "This is equivalent to the emissions from producing 0.3 jeans. "
+        ]
+    },
+    {
+        "userId": "luke",
+        "group": "Lodging",
+        "mcc": "3501",
+        "name": "Holiday Inn",
+        "price": 700,
+        "kg_of_CO2e_emissions": 313.44,
+        "mt_of_CO2e_emissions": 0.3134,
+        "timestamp": 1716532736,
+        "similar_to": [
+            "This is equivalent to the emissions from powering a library with electricity for 2 days.",
+            "This is equivalent to the emissions from flying from Paris to Nice 2 times.",
+            "This is equivalent to the emissions from powering a restaurant with electricity for 2 days."
+        ]
+    },
+    {
+        "userId": "luke",
+        "group": "Digital Goods",
+        "mcc": "5732",
+        "name": "JB HiFi",
+        "price": 345,
+        "kg_of_CO2e_emissions": 48.8,
+        "mt_of_CO2e_emissions": 0.0488,
+        "timestamp": 1715927936,
+        "similar_to": [
+            "This is equivalent to the emissions from flying from London to Paris 0.7 times.",
+            "This is equivalent to the CO2 absorbed by planting and growing 0.8 trees for 10 years.",
+            "This is equivalent to the emissions saved by recycling 2 trash bags of waste instead of sending it to landfill."
+        ]
+    },
+    {
+        "userId": "luke",
+        "group": "Fuel",
+        "mcc": "5541",
+        "name": "7-Eleven",
+        "price": 123.4,
+        "kg_of_CO2e_emissions": 186.6,
+        "mt_of_CO2e_emissions": 0.1866,
+        "timestamp": 1712039936,
+        "similar_to": [
+            "This is equivalent to the emissions from powering a restaurant with electricity for 1 days.",
+            "This is equivalent to the emissions from powering a library with electricity for 0.9 days.",
+            "This is equivalent to the emissions from flying from Paris to Nice 1 times."
+        ]
+    },
+    {
+        "userId": "luke",
+        "group": "Airfare",
+        "mcc": "3012",
+        "name": "Qantas",
+        "price": 1234,
+        "kg_of_CO2e_emissions": 900.3,
+        "mt_of_CO2e_emissions": 0.9003,
+        "timestamp": 1711175936,
+        "similar_to": [
+            "This is equivalent to the emissions from providing 0.4 UK homes with gas for a year.",
+            "This is equivalent to the emissions from flying an Airbus A380 for 1 minutes.",
+            "This is equivalent to the emissions from powering 1 UK homes with electricity for a year."
+        ]
+    }
+]

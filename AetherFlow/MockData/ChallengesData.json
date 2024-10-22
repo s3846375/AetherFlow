@@ -1,0 +1,107 @@
+[
+    {
+        "category": "food",
+        "sub_category": "Eat less meat",
+        "action": "A week with no meat",
+        "description": "Eating less meat can be a quick and easy way to reduce your overall emissions.",
+        "reference": "Connect Earth API Recommendation"
+    },
+    {
+        "category": "food",
+        "sub_category": "Reduce red meat consumption",
+        "action": "A week with no beef",
+        "description": "Just reducing your red meat consumption can have a significant impact. The carbon impact of chicken is 8 times lower than the carbon impact of beef, on average, per gram of protein.",
+        "reference": "Connect Earth API Recommendation"
+    },
+    {
+        "category": "clothing",
+        "sub_category": "Wash clothes correctly",
+        "action": "Wash clothes correctly based on care instructions",
+        "description": "Check your clothing wash care instructions on the labels - they are there for a reason. Washing your clothes correctly prevents damage and ensures that your clothes last longer.",
+        "reference": "Connect Earth API Recommendation"
+    },
+    {
+        "category": "clothing",
+        "sub_category": "Choose organic cotton",
+        "action": "Wear organic cotton",
+        "description": "Opt for organic cotton! With reduced pesticides and no reliance on highly emissive fertilisers it is a simple switch for a lower environmental impact.",
+        "reference": "Connect Earth API Recommendation"
+    },
+    {
+        "category": "clothing",
+        "sub_category": "Air dry clothes",
+        "action": "Air dry clothes for the week",
+        "description": "The heat from a dryer can shrink and damage the fibres of your clothes. Air drying makes your clothes last longer and reduce your overall energy usage.",
+        "reference": "Connect Earth API Recommendation"
+    },
+    {
+        "category": "energy",
+        "sub_category": "Choose high energy-efficient devices",
+        "action": "Use high energy-efficient devices",
+        "description": "When replacing an appliance, you can reduce your energy bill and carbon emissions by purchasing one with a high energy-efficiency rating.",
+        "reference": "Connect Earth API Recommendation"
+    },
+    {
+        "category": "energy",
+        "sub_category": "Choose refurbished devices",
+        "action": "Use refurbished devices",
+        "description": "Opt for refurbished devices - they're eco-friendly and more affordable than new ones. Numerous websites offer professionally refurbished products that function like new at a fraction of the cost.",
+        "reference": "Connect Earth API Recommendation"
+    },
+    {
+        "category": "energy",
+        "sub_category": "Look after devices",
+        "action": "Repair and extend the life of devices",
+        "description": "The best thing you can do to lower emissions from electronics is look after devices and make them last as long as possible. Get repairs if needed and pass it on when you replace it.",
+        "reference": "Deloitte, Mike Berners-Lee"
+    },
+    {
+        "category": "energy",
+        "sub_category": "Conscious purchasing - electronics",
+        "action": "Buy refurbished devices",
+        "description": "80% of an electronic product's carbon footprint comes from the manufacturing process, not its lifetime use. Buying second-hand avoids high emissions from manufacturing new devices.",
+        "reference": "Deloitte, Apple"
+    },
+    {
+        "category": "transport",
+        "sub_category": "Low emissions transport",
+        "action": "Use an electric bike instead of driving short journeys",
+        "description": "Electric bikes are an alternative to driving as they enable you to travel short distances with lower emissions.",
+        "reference": "Mike Berners-Lee, Energy Saving Trust"
+    },
+    {
+        "category": "transport",
+        "sub_category": "Avoid engine idling",
+        "action": "Turn off engine when idling",
+        "description": "If all drivers avoided engine idling for just 3 minutes every day of the year, the emissions reduction would be equivalent to taking 320,000 cars off the road!",
+        "reference": "Connect Earth API Recommendation"
+    },
+    {
+        "category": "transport",
+        "sub_category": "Use car less",
+        "action": "Ditch the car one day per week",
+        "description": "Swapping the car for active travel, such as walking, cycling, and e-biking, is a powerful way to reduce your carbon footprint, lower greenhouse gas emissions, and contribute to a more sustainable environment.",
+        "reference": "Imperial College London"
+    },
+    {
+        "category": "transport",
+        "sub_category": "Use public transport",
+        "action": "Take the train or bus instead of driving",
+        "description": "Travelling by train can reduce your emissions by 70-80% compared to driving.",
+        "reference": "Energy Saving Trust"
+    },
+    {
+        "category": "transport",
+        "sub_category": "Take a Holiday Trip Locally",
+        "action": "Choose a local holiday instead of flying abroad",
+        "description": "Around 2.4% of global CO2e emissions come from flights. Choosing a local holiday instead of flying abroad can significantly reduce the emissions of your holiday.",
+        "reference": "Connect Earth API Recommendation"
+    },
+    {
+        "category": "transport",
+        "sub_category": "Take a Train instead of Flying",
+        "action": "Travel by Train instead of Flying",
+        "description": "Opting to travel by train instead of flying over shorter distances has a significantly reduced environmental impact. The carbon footprint from London to Paris via train is 95% lower than flying.",
+        "reference": "Connect Earth API Recommendation"
+    }
+]
