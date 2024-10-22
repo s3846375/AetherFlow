@@ -102,7 +102,7 @@ struct ChallengeCategoryView: View, Identifiable {
             // Display the name of the category
             Text(name)
                 .font(.headline)
-                .foregroundColor(.black)
+                .foregroundColor(.primary)
                 .accessibilityLabel("\(name)")
         }
     }
