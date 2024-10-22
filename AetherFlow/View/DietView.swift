@@ -67,6 +67,16 @@ struct DietView: View {
         }
     }
     
+    /// Removes the user-selected completed challenge badge from the database storing diets.
+    /// - Parameter badge: The name of the challenge badge to be deleted.
+    private func deleteBadge(badge: String) {
+        let dietsToDelete = diets.filter { $0.challenge == badge && $0.isComplete }
+        for diet in dietsToDelete {
+            modelContext.delete(diet)
+        }
+    }
+    
+    
     /// Variables to track user interactions with challenges in the ongoing section.
     @State private var position = CGPoint.zero
     @State private var isTextVisible = false
@@ -102,6 +112,14 @@ struct DietView: View {
                                         .background(.yellow)
                                         .padding(.vertical, 20)
                                         .accessibilityLabel("\(key)")
+                                        .contextMenu {
+                                            Button(action: {
+                                                deleteBadge(badge: key)
+                                            }) {
+                                                Text("Delete")
+                                                Image(systemName: "trash")
+                                            }
+                                        }
                                 }
                                 // Display the count of completed challenges
                                 if let count = challengeCountDict[key] {
@@ -111,7 +129,7 @@ struct DietView: View {
                                 }
                             }
                             .frame(width: 100, height: 100)
-                            .background(.white)
+//                            .background(.white)
                             .padding(30)
                         }
                     }
