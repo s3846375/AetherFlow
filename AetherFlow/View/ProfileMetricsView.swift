@@ -62,30 +62,33 @@ struct ProfileMetricsView: View {
                 
             } else if !transaction.isEmpty && !profileMetrics.isEmpty {
                 // Display the main content if transactions and profile metrics are available.
-                VStack(alignment: .leading){
-                    monthlyEmissionSection
-                        .padding(.vertical,10)
-                    monthlyBreakdownSection
-                        .padding(.vertical,10)
-                    // If there are multiple profile metrics, show the progress section.
-                    if profileMetrics.count > 1 {
-                        progressSection
+ 
+                    VStack(alignment: .leading){
+                        monthlyEmissionSection
+
+                        monthlyBreakdownSection
                             .padding(.vertical,10)
-                    } else {
-                        Spacer()
-                    }
-                }
-                .padding()
-                .navigationTitle(UserDefaults.standard.string(forKey: "username") ?? "User")
-                .toolbar {
-                    ToolbarItem(placement: .navigationBarTrailing) {
-                        Button("Logout"){
-                            logout()
+                        
+                        // If there are multiple profile metrics, show the progress section.
+                        if profileMetrics.count > 1 {
+                            progressSection
+                                .padding(.vertical,10)
+                        } else {
+                            Spacer()
                         }
-                        .foregroundColor(.teal)
-                        .accessibilityLabel("Logout")
                     }
-                }
+                    .padding()
+                    .navigationTitle(UserDefaults.standard.string(forKey: "username") ?? "User")
+                    .toolbar {
+                        ToolbarItem(placement: .navigationBarTrailing) {
+                            Button("Logout"){
+                                logout()
+                            }
+                            .foregroundColor(.teal)
+                            .accessibilityLabel("Logout")
+                        }
+                    }
+                
             } else {
                 VStack(alignment: .leading){
                     // Placeholder text when there are no transactions
@@ -144,7 +147,7 @@ struct ProfileMetricsView: View {
                     Text("\(String(format: "%.2f", profileMetrics.first?.emissionsTotal ?? 0)) kg")
                         .padding(10)
                         .font(.title2)
-                        .frame(width: 200, height: 60)
+                        .frame(width: 200, height: 50)
                         .foregroundColor(.primary)
                         .background(.yellow)
                         .cornerRadius(15)
@@ -156,7 +159,7 @@ struct ProfileMetricsView: View {
             // Data points for transpose Bar chart (user vs. AU average vs. World average)
             let transBarData: [BarDataPoint] = [
                 BarDataPoint(category: "You", value: profileMetrics.first?.emissionsTotal ?? 0),
-                BarDataPoint(category: "AU avg", value: 1280),
+                BarDataPoint(category: "Australia avg", value: 1280),
                 BarDataPoint(category: "World avg", value: 400)
             ]
             
@@ -169,6 +172,7 @@ struct ProfileMetricsView: View {
                 .foregroundStyle(.teal)
             }
             .frame(height: 100)
+            
         }
     }
     
@@ -188,7 +192,7 @@ struct ProfileMetricsView: View {
                 )
                 .foregroundStyle(.yellow)
             }
-            .frame(height: 120)
+//            .frame(height: 120)
         }
     }
     
@@ -209,7 +213,7 @@ struct ProfileMetricsView: View {
                 .foregroundStyle(.teal)
                 .lineStyle(StrokeStyle(lineWidth: 4))
             }
-            .frame(height: 150)
+//            .frame(height: 150)
         }
     }
     
