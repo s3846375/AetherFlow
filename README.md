@@ -1,8 +1,8 @@
 
 # ``AetherFlow``
 
-AetherFlow helps users track their carbon emissions through everyday transactions, provide actionable guidance, and monitor improvement progress.
-Project made by Christina Tu and Gabby Sanchez
+AetherFlow helps users track their carbon emissions through everyday transactions, provide actionable guidance, and monitor improvement progress.<be>  
+Project created by: Christina Tu and Gabby Sanchez
 
 ## Overview
 
